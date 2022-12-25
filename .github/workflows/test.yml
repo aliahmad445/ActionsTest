@@ -14,6 +14,6 @@ jobs:
         run: echo Hello, world!
 
   docker:
-    uses: aliahmad445/ReusableWorkflow/.github/workflows/buildAndPublishDockerImage.yml@main
+    uses: aliahmad445/ReusableWorkflow/.github/workflows/test.yml@aliahmad-test
     with:
       tag: $GITHUB_RUN_NUMBER
