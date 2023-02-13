@@ -15,6 +15,3 @@ jobs:
 
   docker:
     uses: aliahmad445/ReusableWorkflow/.github/workflows/test.yml@aliahmad-test
-    secrets:
-     MASCOT_TOKEN: ${{secrets.MASCOT_TOKEN}}
-    
